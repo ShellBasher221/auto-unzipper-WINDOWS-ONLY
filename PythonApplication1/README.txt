@@ -1,10 +1,8 @@
-dependancies (these are needed for the application to run):
+all dependacies needed will automatically be installed if needed. This CLI project automatically finds your downloads folder (unless its in a weird place like OneDrive) and unzips them and directs the output to "unzipped_archives" in your downloads directory then moves the original zipped files to the recycling bin then emptys it.
 
-- python interpreter (preferable the most recent one) from either python.org or the microsoft store
-- pywin32 (in cmd or powershell: "pip install pywin32") <- python needed beforehand
-- rarfile (in cmd or powershell "pip install rarfile") <- python needed beforehand
-- 
-- tarfile (included in base python)
+Works with:
+  .zip
+  .rar
+  .tar.gz (untested)
 
-HOW TO RUN:
-within a powershell or terminal session just type python {file.py} replace "file" with whatever name it is
+ONLY WORKS WITH WINDOWS
